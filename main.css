@@ -275,3 +275,56 @@ header {
     padding: 100px 0;
     background: white;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+form input {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+form button {
+    padding: 15px;
+    border: none;
+    background: #0ea5e9;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+.newsletter h2 {
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.newsletter input {
+    padding: 15px;
+    width: 350px;
+    max-width: 90%;
+    border: none;
+    border-radius: 10px;
+}
+
+.newsletter button {
+    padding: 15px 25px;
+    border: none;
+    background: #38bdf8;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
