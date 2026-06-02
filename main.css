@@ -209,3 +209,26 @@ header {
     border-radius: 10px;
     cursor: pointer;
 }
+.features {
+    padding: 100px 0;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.feature {
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .08);
+}
+
+.feature i {
+    font-size: 50px;
+    color: #0ea5e9;
+    margin-bottom: 20px;
+}
