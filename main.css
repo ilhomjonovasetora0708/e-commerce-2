@@ -57,3 +57,45 @@ header {
 .menu a:hover {
     color: #38bdf8;
 }
+.nav-btn {
+    padding: 12px 25px;
+    border: none;
+    background: #38bdf8;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* HERO */
+
+.hero {
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .45);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
