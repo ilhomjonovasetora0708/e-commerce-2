@@ -348,3 +348,27 @@ footer {
     margin-bottom: 10px;
     color: #cbd5e1;
 }
+@media(max-width:900px) {
+
+    .menu {
+        display: none;
+    }
+
+    .hero-content h1 {
+        font-size: 45px;
+    }
+
+    .destination-grid,
+    .package-grid,
+    .feature-grid,
+    .stats-grid,
+    .review-grid,
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .search-box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
